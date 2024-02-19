@@ -1,0 +1,60 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/1306573.jpg');
+    margin: 0;
+    width: 50%;
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 249, 249, 0.329), rgba(0, 0, 0, 0.7));
+   
+}
+.content-text{
+    color: rgba(253, 253, 253, 0.925);
+    font-size: 23px;
+    font-family: "Półtawski Nowy",sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    border:1px solid rgb(252, 253, 250);
+    width: 290px;
+    padding: 5px 5px 5px;  
+}
+.content-border {
+    border: 2px solid rgb(239, 247, 239);
+    margin-top: 30%; 
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    width: 80%;
+}
+.content-h1{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.content-p1{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -2px;
+    opacity: 0;
+    animation: slide-up 1s ease forwards;
+}
+@keyframes slide-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

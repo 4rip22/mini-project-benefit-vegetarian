@@ -1,0 +1,364 @@
+body{
+    font-family :Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+   }
+   
+   header{
+       text-align: center;
+   }
+   header h1 {
+       color: rgb(245, 247, 248);
+       background-color: rgb(85, 228, 42);
+       font-family: 'Times New Roman', Times, serif;
+       height: 70px;
+       margin: auto;
+       line-height: 65px;
+   }
+   .container{
+       margin-left: 2%;
+       font-size: 20px;
+       margin-top: 1px;
+   }
+   h2 {
+       font-family: "Anton",sans-serif;
+       text-shadow: 2px 2px 3px rgba(8, 7, 7, 0.5);
+   }
+   .benefit1 {
+       margin-top: -20px;
+       margin-left: 5%;
+       color: rgb(30, 117, 8);
+       text-shadow: 2px 2px 3px rgba(52, 139, 11, 0.5);
+   }
+   .image1 img{
+    position: relative;
+    width: 100px;
+    height: auto;
+    margin-top: 150px;
+    border: 3px solid rgb(14, 197, 14);
+    border-radius: 10px;
+    padding: 20px 50px 152px; ;
+    margin-left: 25px;
+    float: left;
+   }
+   .image1,
+   .image2,
+   .image3,
+   .image4,
+   .image5,
+   .image6, img:hover{
+       background-color: rgb(38, 94, 94);
+      
+   }
+   .image2 img {
+       width: 100px;
+       height: auto;
+       margin-top: 150px;
+       border: 3px solid rgb(14, 197, 14);
+       border-radius: 10px;
+       padding: 20px 50px 150px; ;
+       margin-left: 15px;
+       float: left;
+   }
+   .image3 img {
+       width: 60px;
+       height: auto;
+       margin-top: 150px;
+       border: 3px solid rgb(14, 197, 14);
+       padding: 20px 70px 156px; ;
+       border-radius: 10px;
+       margin-left: 15px;
+       float: left;
+   }
+   .image4 img {
+       width: 100px;
+       height: auto;
+       margin-top: 150px;
+       border: 3px solid rgb(14, 197, 14);
+       padding: 20px 50px 166px; 
+       border-radius: 10px;
+       margin-left: 15px;
+       float: left;
+   }
+   .image5 img {
+       width: 100px;
+       height: auto;
+       margin-top: 150px;
+       border: 3px solid rgb(14, 197, 14);
+       padding: 20px 50px 145px; 
+       border-radius: 10px;
+       margin-left: 15px;
+       float: left;
+   }
+   .image6 img{
+       width: 70px;
+       height: auto;
+       margin-top: 150px;
+       border: 3px solid rgb(14, 197, 14);
+       padding: 20px 60px 155px; 
+       border-radius: 10px;
+       margin-left: 15px;
+       float: left;
+   }
+   .name-benefit1{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 32%;
+       margin-left: 6%;
+       font-weight: bold;
+       font-family: Roboto Slab;
+   }
+   .name-benefit2{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 32%;
+       margin-left: 21%;
+       font-weight: bold;
+       font-family: Roboto Slab;
+   }
+   .name-benefit3{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 32%;
+       margin-left: 39%;
+       font-weight: bold;
+       font-family: Roboto Slab;
+   }
+   .name-benefit4{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 32%;
+       margin-left: 56%;
+       font-weight: bold;
+       font-family: Roboto Slab;
+   }
+   .name-benefit5{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 32%;
+       margin-left: 71%;
+       font-weight: bold;
+       font-family: Roboto Slab;
+   }
+   .name-benefit6{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 32%;
+       margin-left: 86%;
+       font-weight: bold;
+       font-family: Roboto Slab;
+   }
+   .content-benefit1 a{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 38%;
+       margin-left: 7.6%;
+       text-decoration: none;
+       background-color: rgb(19, 233, 19);
+       color: black;
+       border-radius: 5px;
+       padding: 4px 4px;
+       font-size: small;
+       font-weight: bold;
+    
+   }
+   .content-benefit1 a:hover{
+       background-color: rgb(250, 236, 40);
+       color: black;
+       border:1px solid rgb(13, 192, 13);
+   }
+   .content-benefit2 a{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 38%;
+       margin-left: 23.6%;
+       text-decoration: none;
+       background-color: rgb(19, 233, 19);
+       color: black;
+       border-radius: 5px;
+       padding: 4px 4px;
+       font-size: small;
+       font-weight: bold;
+   }
+   .content-benefit2 a:hover{
+       background-color: rgb(250, 236, 40);
+       color: black;
+       border:1px solid rgb(13, 192, 13);
+   }
+   .content-benefit3 a{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 38%;
+       margin-left: 40%;
+       text-decoration: none;
+       background-color: rgb(19, 233, 19);
+       color: black;
+       border-radius: 5px;
+       padding: 4px 4px;
+       font-size: small;
+       font-weight: bold;
+   }
+   .content-benefit3 a:hover{
+       background-color: rgb(250, 236, 40);
+       color: black;
+       border:1px solid rgb(13, 192, 13);
+   }
+   .content-benefit4 a{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 38%;
+       margin-left: 56.6%;
+       text-decoration: none;
+       background-color: rgb(19, 233, 19);
+       color: black;
+       border-radius: 5px;
+       padding: 4px 4px;
+       font-size: small;
+       font-weight: bold;
+   }
+   .content-benefit4 a:hover{
+       background-color: rgb(250, 236, 40);
+       color: black;
+       border:1px solid rgb(13, 192, 13);
+   }
+   .content-benefit5 a{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 38%;
+       margin-left: 72.2%;
+       text-decoration: none;
+       background-color: rgb(19, 233, 19);
+       color: black;
+       border-radius: 5px;
+       padding: 4px 4px;
+       font-size: small;
+       font-weight: bold;
+   }
+   .content-benefit5 a:hover{
+       background-color: rgb(250, 236, 40);
+       color: black;
+       border:1px solid rgb(13, 192, 13);
+   }
+   .content-benefit6 a{
+       position: absolute;
+       top: 0;
+       left: 0;
+       margin-top: 38%;
+       margin-left: 88.4%;
+       text-decoration: none;
+       background-color: rgb(19, 233, 19);
+       color: black;
+       border-radius: 5px;
+       padding: 4px 4px;
+       font-size: small;
+       font-weight: bold;
+   }
+   .content-benefit6 a:hover{
+       background-color: rgb(250, 236, 40);
+       color: black;
+       border:1px solid rgb(13, 192, 13);
+   } 
+   @media only screen and (max-width:768px){
+    .name-benefit1{
+        position: absolute;
+        margin-top: 90%;
+        margin-left: 16.7%;
+    }
+    .name-benefit2{
+        position: absolute;
+        margin-top: 90%;
+        margin-left: 60%;
+    }
+    .name-benefit3{
+        position: absolute;
+        margin-top: 170%;
+        margin-right: 10%;
+        margin-left: 17%;
+
+    }
+    .name-benefit4{
+        position: absolute;
+        margin-top: 170%;
+        margin-right: 2%;
+        margin-left: 65%;
+
+    }
+    .name-benefit5{
+        position: absolute;
+        margin-top: 255%;
+        margin-right: 2%;
+        margin-left: 17%;
+    }
+    .name-benefit6{
+        position: absolute;
+        margin-top: 255%;
+        margin-right: 2%;
+        margin-left: 62%;
+    }
+    .image3 img{
+        margin-right: 40px;
+        margin-left: 5%;
+    }
+    .image4 img{
+        margin-top: -50%;
+        margin-left: 51%;
+    }
+    .image5 img{
+        margin-left: 5%;  
+    }
+    .image6 img{
+        width: 80px;
+        padding: 20px 60px 145px; 
+    }
+    .content-benefit1 a{
+        position: absolute;
+        margin-top: 105%;
+        margin-left: 22%;
+    }
+    .content-benefit2 a{
+        position: absolute;
+        margin-top: 105%;
+        margin-left: 67%;
+    }
+    .content-benefit3 a{
+        position: absolute;
+        margin-top: 185%;
+        margin-right: 5px;
+        margin-left: 22%;
+       
+    }
+    .content-benefit4 a{
+        position: absolute;
+        margin-top: 185%;
+        margin-right: 5px;
+        margin-left: 67%;
+    }
+    .content-benefit5 a{
+        position: absolute;
+        margin-top: 267%;
+        margin-right: 5%;
+        margin-left: 22%;
+    }
+    .content-benefit6 a{
+        position: absolute;
+        margin-top: 267%;
+        margin-right: 5%;
+        margin-left: 67%;
+    }
+}
+
+
+
+    
+   
